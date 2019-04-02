@@ -1,0 +1,19 @@
+{
+  "name": "party-statistics",
+  "version": "1.0.0",
+  "description": "A program that fetch and creates statistics from the swedish parliments API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ackuq/party-statistics.git"
+  },
+  "author": "Axel Pettersson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ackuq/party-statistics/issues"
+  },
+  "homepage": "https://github.com/Ackuq/party-statistics#readme"
+}
