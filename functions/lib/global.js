@@ -9,3 +9,14 @@ global.partyMap = {
   V: { name: "Vänsterpartiet" },
   FP: { name: "Folkpartiet" }
 };
+
+global.leaders = [
+  "Löfven, Stefan  (S)",
+  "Fridolin, Gustav  (MP)",
+  "Kristersson, Ulf  (M)",
+  "Lööf, Annie  (C)",
+  "Björklund, Jan  (L)",
+  "Sjöstedt, Jonas  (V)",
+  "Busch Thor, Ebba  (KD)",
+  "Åkesson, Jimmie  (SD)"
+];

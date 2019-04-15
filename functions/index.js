@@ -1,6 +1,7 @@
 const functions = require("firebase-functions");
-const redgreen = require("./votingComparing");
-require("./global");
+const { members } = require("./lib/members");
+const { run: votingCompare } = require("./lib/votingComparing");
+require("./lib/global");
 
 const admin = require("firebase-admin");
 
@@ -9,7 +10,9 @@ exports.statistics = functions.https.onRequest(async (req, res) => {
     admin.initializeApp();
   }
 
-  await redgreen.run();
+  await members();
+
+  await votingCompare();
 
   res.send("Data fetched");
 });
